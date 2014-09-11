@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{211B889C-7054-45EA-9323-2B34619791A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "retosMSDN", "retosMSDN\retosMSDN.csproj", "{2D881D76-DDCC-4808-A041-8037BD22DDD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{211B889C-7054-45EA-9323-2B34619791A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211B889C-7054-45EA-9323-2B34619791A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211B889C-7054-45EA-9323-2B34619791A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211B889C-7054-45EA-9323-2B34619791A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D881D76-DDCC-4808-A041-8037BD22DDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D881D76-DDCC-4808-A041-8037BD22DDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D881D76-DDCC-4808-A041-8037BD22DDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D881D76-DDCC-4808-A041-8037BD22DDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
