@@ -16,7 +16,17 @@ namespace Reto1ClassLibrary
       Nombre = "";
       Edad = 0;
     }
+    public override bool Equals(object obj)
+    {
+      var persona = obj as Persona;
+      if (persona != null)
+      {
+        return persona.Nombre == this.Nombre && persona.Edad == this.Edad;
+      }
+      return base.Equals(obj);
+    }
   }
+
 
   public class Reto1
   {

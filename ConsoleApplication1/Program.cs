@@ -35,6 +35,15 @@ namespace ConsoleApplication1
             };
       Console.WriteLine();
       foreach (Persona p in listaOrdenada) Console.WriteLine(p.Nombre + " " + p.Edad);
+
+      Console.WriteLine(listaOrdenada.Count);
+      Console.WriteLine(resultado.Count);
+      for (int i = 0; i < listaOrdenada.Count; i++)
+      {
+        Console.WriteLine(i+" "+listaOrdenada[i].Nombre + " " + resultado[i].Nombre);
+        Console.WriteLine(string.Compare(listaOrdenada[i].Nombre, resultado[i].Nombre));
+      }
+
     }
   }
 }
